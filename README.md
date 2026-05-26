@@ -24,3 +24,28 @@ XOR is the classic test for neural networks because it cannot be solved by a sin
 ## Results
 
 After 5000 training loops, the network solves XOR perfectly:
+
+
+# Study Buddy — AI-powered tutor built with Claude
+
+A chatbot that actually teaches you instead of just answering your questions.
+Built with the Anthropic API and Streamlit.
+
+## What it does
+
+- Explains any concept simply when you ask
+- Quizzes you after you say you understood something
+- Tells you honestly if your answer is wrong
+- Remembers the full conversation so context carries through
+
+## Why I built it
+
+Most AI chatbots just give you the answer. This one forces you to actually learn
+by testing you after every explanation. Inspired by how I actually study.
+
+## Stack
+
+- Python
+- Anthropic API (claude-sonnet-4-20250514)
+- Streamlit
+- python-dotenv
