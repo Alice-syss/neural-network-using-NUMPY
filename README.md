@@ -49,3 +49,38 @@ by testing you after every explanation. Inspired by how I actually study.
 - Anthropic API (claude-sonnet-4-20250514)
 - Streamlit
 - python-dotenv
+
+# Stock Market Analysis — Apple, Microsoft, Google
+
+Data analysis of 40 years of stock market data using Python and pandas.
+
+## Questions I answered
+
+**1. How has Apple's price grown over 40 years?**
+Flat from 1980–2005, then explosive growth after the iPhone launch in 2007.
+
+**2. What were the most volatile days in Apple's history?**
+The data surfaced real historical events — Black Monday 1987, the 2008 financial 
+crisis, and the 2010 Flash Crash — purely from price movement numbers.
+
+**3. If you invested $100 in 2004, what would it be worth today?**
+- Apple → $17,000
+- Google → $2,500  
+- Microsoft → $800
+
+## What I learned
+- How to calculate volatility from raw OHLC price data
+- How to normalize prices to compare stocks fairly regardless of their price
+- How price data tells the story of real world events
+
+## Stack
+- Python
+- pandas
+- matplotlib
+- NumPy
+
+- ## Data
+Download the dataset from Kaggle:
+https://kaggle.com/datasets/jacksoncrow/stock-market-dataset
+
+Place the stocks folder inside a `data/` folder in this directory.
